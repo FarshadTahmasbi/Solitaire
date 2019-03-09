@@ -1,4 +1,8 @@
 fun main(args: Array<String>) {
-    val card : Card = Card(8,"Club")
-    print(card);
+    val card = Card(8,"Club")
+    println(card)
+    val deck = Deck()
+    deck.cards.forEach {
+        println(it)
+    }
 }
