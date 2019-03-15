@@ -11,7 +11,7 @@ class TableauPileTest {
         val cards = mutableListOf(Card(11, hearts))
 
         //act
-        tableauPile.addCard(cards)
+        tableauPile.addCards(cards)
 
         //assert
         assertEquals(2, tableauPile.cards.size)
